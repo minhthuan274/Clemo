@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+
+/*@font-face {
+	font-family: 'Montserrat Light';
+	src: url('../fonts/Montserrat-Light.tff');
+}*/
+
+@font-face {
+	font-family: 'Montserrat Hairline';
+	src: url('../fonts/Montserrat-Hairline.ttf');
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	padding: 0;
+}
+
+#wrapper {
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 30px;
+}
+/*
+navbar css */
+
+.navbar-header > .navbar-brand {
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 0;
+	color: black;
+}
+
+.navbar-nav > li > a {
+	color: #D7DBDD;
+	font-size: 14px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: white;
+	color: #2E4053;
+}
+
+.big-space {
+	padding: 45px;
+}
+
+/*size img */
+.img-364-590 {
+	width: 364px;
+	height: 590px;
+}
+
+.img-364-364 {
+	width: 364px;
+	height: 364px;
+}
+
+
+
