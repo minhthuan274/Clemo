@@ -35,7 +35,7 @@
 	font-size: 15px;
 }
 
-#mySlide > p > #button_get_touch {
+#mySlide > p > button {
 	font-family: 'Montserrat Light', sans-serif;
 	border-radius: 15px;
 	background-color: black;
@@ -52,7 +52,7 @@
 	cursor: pointer;
 }
 
-.carousel-indicators {
+#indicators-slide-first {
 	left: 98%;
 	right: 2%;
 	top: 50%;
@@ -62,13 +62,8 @@
   transform: rotate(90deg);
 }
 
-.carousel-indicators .active {
-	background-color: black;
-}
 
-.carousel-indicators li {
-	border: 1px solid black;
-}
+
 
 
 
@@ -200,6 +195,12 @@
 	padding: 12px 0px;
 }
 
+/*gallery*/
+
+#gallery {
+	position: relative;
+}
+
 #gallery div div {
 	padding: 0px 5px;
 }
@@ -207,6 +208,77 @@
 #gallery div div div{
 	padding: 0px 5px;
 }
+
+#gallery button {
+	margin: 30px;
+	font-family: 'Montserrat Light', sans-serif;
+	border-radius: 15px;
+	border-color: black;
+	color: white;
+	background-color: black;
+	position: absolute;
+	top: 98%;
+	left: 43%;
+	right: 57%;
+}
+
+#gallery button:hover, #gallery button:active {
+	background-color: white;
+	color: black;
+} 
+
+/*slideshow best team1*/
+
+#best-team {
+  padding: 0;
+  margin: 60px 0px;
+  width: 100%;
+}
+
+#best-team .container {
+	padding: 0;
+	width: 100%;
+}
+
+#wrapper-slide-bestTeam {
+	height: 580px;
+	width: 100%;
+	background-color: #ffcb93;
+}
+
+#mySlide2 {
+	background-color: #ffcb93;
+}
+
+#mySlide2 #title-slide h2{
+	font-family: 'Montserrat Hairline', sans-serif;
+	font-size: 55px;
+	padding: 40px 0;
+}
+
+.member {
+	width: 180px;
+	margin: 10px 50px;
+	text-align: center;
+}
+
+.members {
+	width: 1000px;
+	margin-left: 250px;
+}
+
+.information-member hr{
+	width: 40px;
+	border-top: 2px solid black;
+	margin: 12px auto;
+}
+
+.carousel-control .right, .carousel-control .lef{
+	background-image: none;
+}
+
+
+
 
 
 

@@ -22,9 +22,10 @@ body{
 }
 
 #wrapper {
-	margin-left: 60px;
+/*	margin-left: 60px;
 	margin-right: 60px;
-	margin-top: 30px;
+	margin-top: 30px;*/
+	margin: 0;
 }
 /*
 navbar css */
@@ -59,6 +60,15 @@ navbar css */
 .img-364-364 {
 	width: 364px;
 	height: 364px;
+}
+/*
+slide */
+.carousel-indicators .active {
+	background-color: black;
+}
+
+.carousel-indicators li {
+	border: 1px solid black;
 }
 
 
