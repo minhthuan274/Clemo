@@ -231,7 +231,7 @@
 
 #best-team {
   padding: 0;
-  margin: 60px 0px;
+  margin: 60px 0px 0px 0;
   width: 100%;
 }
 
@@ -273,9 +273,62 @@
 	margin: 12px auto;
 }
 
-.carousel-control .right, .carousel-control .lef{
-	background-image: none;
+.carousel-control .right, .carousel-control .left{
+	background-image:  !important;
 }
+
+
+/*best say*/
+#best-say {
+	padding: 0;
+}
+
+#wrapper-bestSay {
+	height: 600px;
+	background-color: white;
+}
+
+#mySlide3 {
+	background-color: white;
+}
+
+#mySlide3 #title-slide h2{
+	font-family: 'Montserrat Hairline', sans-serif;
+	font-size: 55px;
+	padding: 40px 0;
+}
+
+#review {
+	margin-bottom: 40px;
+}
+
+#review .row #member .information-member h3{
+	margin-top: 0;
+	font-size: 32px;
+}
+
+#review .row #member .information-member hr{
+	text-align: right;
+	margin-right: 0;
+}
+
+#review .row #member .information-member{
+	padding-right: 40px;
+}
+
+#review .row #text-review {
+	padding-right: 200px;
+	padding-top: 5px;
+}
+
+#review .row #text-review p {
+	font-family: 'Montserrat Light', sans-serif;
+	color: #99A3A4;
+	line-height: 25px;
+}
+
+
+
 
 
 
