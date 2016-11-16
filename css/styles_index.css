@@ -327,6 +327,43 @@
 	line-height: 25px;
 }
 
+/*footer*/
+
+.footer-top {
+	width: 100%;
+	height: 550px;
+	background-color: black;
+	color: white;
+}
+
+#title-footer h2 {
+	font-family: 'Montserrat Hairline', sans-serif;
+	font-size: 55px;
+	padding: 40px 0;
+}
+
+.fa-stack .fa-stack-1x {
+	color: black;
+}
+
+ul {
+	margin-left: 0 !important;
+}
+
+.contacts {
+	padding-right: 110px;
+	font-family: 'Montserrat Light', sans-serif;
+}
+
+.fa-ul li {
+	margin-bottom: 25px;
+}
+
+/*i.fa.fa-facebook.fa-twitter.fa-google-plus.fa-pinterest
+.fa-instagram.fa-stack-1x {
+	color: black;
+}*/
+
 
 
 
