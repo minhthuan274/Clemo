@@ -1,0 +1,54 @@
+.footer-top {
+	width: 100%;
+	height: 550px;
+	background-color: black;
+	color: white;
+}
+
+#title-footer h2 {
+	font-family: 'Montserrat Hairline', sans-serif;
+	font-size: 55px;
+	padding: 40px 0;
+}
+
+.fa-stack .fa-stack-1x {
+	color: black;
+}
+
+ul {
+	margin-left: 0 !important;
+}
+
+.contacts {
+	padding-right: 110px;
+	font-family: 'Montserrat Light', sans-serif;
+}
+
+.fa-ul li {
+	margin-bottom: 25px;
+}
+
+span.fa-stack:hover, span.fa-stack:focus {
+	color: #ffcb93;
+}
+
+/*submit*/
+
+#submit-row.row {
+	width: 70%;
+}
+
+#submit-row div hr {
+	margin: 3px 15px 25px 15px;
+}
+
+.optin {
+	outline: 0;
+	border-color: black;
+	background-color: black;
+	margin-bottom: 5px;
+	padding: 10px 15px;
+	text-align: left;
+	text-overflow: initial;
+	overflow: hidden;
+}

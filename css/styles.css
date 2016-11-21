@@ -53,11 +53,15 @@ navbar css */
 
 /*size img */
 .img-364-590 {
+	max-width: 364px;
+	max-height: 590px;
 	width: 364px;
 	height: 590px;
 }
 
 .img-364-364 {
+	max-width: 364px;
+	max-height: 364px;
 	width: 364px;
 	height: 364px;
 }

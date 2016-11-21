@@ -197,7 +197,7 @@
 
 /*gallery*/
 
-#gallery {
+/*#gallery {
 	position: relative;
 }
 
@@ -207,10 +207,72 @@
 
 #gallery div div div{
 	padding: 0px 5px;
+}*/
+
+.content-img{
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin-bottom: 30px;
 }
 
-#gallery button {
-	margin: 30px;
+.content-img .caption {
+	background-color: #ffcb93;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	bottom: -50px;
+	left: 32px;
+	opacity: 0;
+	-webkit-transition: all 0.4s ;
+	   -moz-transition: all 0.4s ;
+	    -ms-transition: all 0.4s ;
+	     -o-transition: all 0.4s ;
+	        transition: all 0.4s ;
+}
+
+.content-img .caption h2 {
+	margin-top: 80px;
+	font-weight: bold;
+}
+
+.content-img .caption hr {
+	text-align: center;
+	width: 50px;
+	background-color: black;
+	border-top: 2px solid black;
+}
+
+.content-img .caption p {
+	font-family: 'Montserrat Light', sans-serif;
+}
+
+.content-img img {
+	opacity: 1;
+}
+
+.content-img:hover img{
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+	-webkit-transition: all 0.8s;
+	   -moz-transition: all 0.8s;
+	    -ms-transition: all 0.8s;
+	     -o-transition: all 0.8s;
+	        transition: all 0.8s;
+	opacity: .66;     
+}
+
+.content-img:hover .caption {
+	opacity: 1;
+	bottom: 32px;
+}
+
+
+#gallery div div button {
+	margin: 10px;
 	font-family: 'Montserrat Light', sans-serif;
 	border-radius: 15px;
 	border-color: black;
@@ -222,7 +284,7 @@
 	right: 57%;
 }
 
-#gallery button:hover, #gallery button:active {
+#gallery div div button:hover, #gallery div div button:active {
 	background-color: white;
 	color: black;
 } 
@@ -245,6 +307,29 @@
 	width: 100%;
 	background-color: #ffcb93;
 }
+
+.slide a.carousel-control {
+	background-image: none;
+}
+
+.carousel-control .fa {
+	position: absolute;
+	top: 40%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .fa-angle-left{
+	left: 50%;
+}
+
+.carousel-control .fa-angle-right {
+	right: 50%;
+}
+
+/*.slide a.carousel-control i {
+	color: white;
+}*/
 
 #mySlide2 {
 	background-color: #ffcb93;
@@ -271,10 +356,6 @@
 	width: 40px;
 	border-top: 2px solid black;
 	margin: 12px auto;
-}
-
-.carousel-control .right, .carousel-control .left{
-	background-image:  !important;
 }
 
 
@@ -329,35 +410,6 @@
 
 /*footer*/
 
-.footer-top {
-	width: 100%;
-	height: 550px;
-	background-color: black;
-	color: white;
-}
-
-#title-footer h2 {
-	font-family: 'Montserrat Hairline', sans-serif;
-	font-size: 55px;
-	padding: 40px 0;
-}
-
-.fa-stack .fa-stack-1x {
-	color: black;
-}
-
-ul {
-	margin-left: 0 !important;
-}
-
-.contacts {
-	padding-right: 110px;
-	font-family: 'Montserrat Light', sans-serif;
-}
-
-.fa-ul li {
-	margin-bottom: 25px;
-}
 
 /*i.fa.fa-facebook.fa-twitter.fa-google-plus.fa-pinterest
 .fa-instagram.fa-stack-1x {
