@@ -16,4 +16,12 @@ $(document).ready(function(){
 		else
 			$('#title-' + titleName).show();
 	});
+
+	$('#submit-btn').click(function() {
+		$("#submit-row").load('snippets/submit-successful.html');
+	});
+
+	$("#newMessage-btn").click(function() {
+		$("#submit-row").load('snippets/submit-form.html');
+	});
 });

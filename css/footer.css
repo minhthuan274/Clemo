@@ -68,14 +68,28 @@ span.fa-stack:hover, span.fa-stack:focus {
 	        transition: all .3;
 }
 
-#submit-btn {
+.btn-footer {
 	margin-left: 15px;
 	border-radius: 17px;
 	padding: 7px 30px;
 	text-align: center;
 }
 
-#submit-btn:hover, #submit-btn:active, #submit-btn:focus {
+.btn-footer:hover, .btn-footer:active, .btn-footer:focus {
 	background-color: #ffcb93;
 	border-color: #ffcb93;
+}
+
+.fa-check.fa-4x {
+	margin-left: 10px;
+}
+
+#submit-row p{
+	margin: 15px 0px;
+	font-size: 30px;
+}
+
+#newMessage-btn{
+	margin-top: 5px;
+	margin-left: 0;
 }
