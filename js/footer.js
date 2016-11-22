@@ -4,13 +4,13 @@ $(document).ready(function(){
 		/* Act on the event */
 		var titleName = $(this).attr('name');
 		$(this).attr('placeholder','');
-		$('#title-' + titleName).show();
+		$('#title-' + titleName).css('opacity', '0.5');
 	});
 
 	$('.optin').focusout(function(event) {
 		var titleName = $(this).attr('name');
 		if($(this)["0"].value == ""){
-			$('#title-' + titleName).hide();
+			$('#title-' + titleName).css('opacity', '0');;
 			$(this).attr('placeholder',titleName);
 		}
 		else

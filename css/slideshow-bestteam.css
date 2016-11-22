@@ -1,0 +1,68 @@
+/*slideshow best team1*/
+
+#best-team {
+  padding: 0;
+  margin: 60px 0px 0px 0;
+  width: 100%;
+}
+
+#best-team .container {
+	padding: 0;
+	width: 100%;
+}
+
+#wrapper-slide-bestTeam {
+	height: 580px;
+	width: 100%;
+	background-color: #ffcb93;
+}
+
+.slide a.carousel-control {
+	background-image: none;
+}
+
+.carousel-control .fa {
+	position: absolute;
+	top: 40%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .fa-angle-left{
+	left: 50%;
+}
+
+.carousel-control .fa-angle-right {
+	right: 50%;
+}
+
+/*.slide a.carousel-control i {
+	color: white;
+}*/
+
+#mySlide2 {
+	background-color: #ffcb93;
+}
+
+#mySlide2 #title-slide h2{
+	font-family: 'Montserrat Hairline', sans-serif;
+	font-size: 55px;
+	padding: 40px 0;
+}
+
+.member {
+	width: 180px;
+	margin: 10px 50px;
+	text-align: center;
+}
+
+.members {
+	width: 1000px;
+	margin-left: 250px;
+}
+
+.information-member hr{
+	width: 40px;
+	border-top: 2px solid black;
+	margin: 12px auto;
+}

@@ -75,5 +75,14 @@ slide */
 	border: 1px solid black;
 }
 
+.title {
+	font-size: 55px;
+	font-family: 'Montserrat Hairline', sans-serif;
+}
 
+.col-5 {
+	padding: 0;
+	width: 20%;
+	float: left;
+}
 

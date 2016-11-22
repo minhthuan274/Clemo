@@ -12,9 +12,6 @@
 	<link href="css/styles_index.css" rel="stylesheet">
 	<link href="css/header.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 	<link href="http://allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
 </head>
@@ -32,7 +29,7 @@
               <a href="" class="navbar-brand">Clemo.</a>
           </div>
 
-          <div class="navbar-collapse collapse pull-right">
+          <div id="menu" class="navbar-collapse collapse pull-right">
               <ul class="nav navbar-nav">
                   <li><a href="">about us</a></li>
                   <li><a href="">services</a></li>
@@ -62,7 +59,7 @@
  					<hr>
             		<p class="text-center">professionals</p>
             		<p class="text-center">in the creative industries<p>
-            		<button id="button_get_touch" type="button" class="btn btn-primary" href="">Get in touch</button>
+            		<button id="button_get_touch" type="button" class="btn btn-primary" href=".footer-top">Get in touch</button>
 				</div>
 
 				<div id="mySlide" class="item">
@@ -173,7 +170,7 @@
 			<!--title gallery-->
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-4 col-xs-4">
+					<div class="col-lg-4 col-md-4 col-xs-12">
 						<div class="row">
 							<div class="col-lg-12 col-md-12 col-xs-12">
 								<div class="content-img">
@@ -198,7 +195,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-xs-4">
+					<div class="col-lg-4 col-md-4 col-xs-12">
 						<div class="row">
 							<div class="col-lg-12 col-md-12 col-xs-12">
 								<div class="content-img">
@@ -223,7 +220,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-xs-4">
+					<div class="col-lg-4 col-md-4 col-xs-12">
 						<div class="row">
 							<div class="col-lg-12 col-md-12 col-xs-12">
 								<div class="content-img">
@@ -473,24 +470,24 @@
 					<div class="feedback col-lg-6 col-md-6 col-xs-12">
 						<div id="submit-box">
 								<div id="submit-row">
-									<i class="fa fa-check fa-4x" aria-hidden="true"></i>
+									<!-- <i class="fa fa-check fa-4x" aria-hidden="true"></i>
 									<p>Thank you!<br>Your message has been sent!</p>
 									<button id="newMessage-btn" class="btn btn-default btn-footer" type="button"> new message</button>
-									<script type="text/javascript" src="js/footer.js"></script>
-									<!-- <div class="col-lg-12 col-md-12 col-xs-12">
-										<p hidden id="title-name" class="title-input">name</p>
+									<script type="text/javascript" src="js/footer.js"></script> -->
+									<div class="col-lg-12 col-md-12 col-xs-12">
+										<p id="title-name" class="title-input">name</p>
 										<input class="optin" type="text" name="name" placeholder="name">
 										<hr>
 									</div>
 
 									<div class="col-lg-12 col-md-12 col-xs-12">
-										<p hidden id="title-email" class="title-input">e-mail</p>
+										<p id="title-email" class="title-input">e-mail</p>
 										<input class="optin" type="text" name="email" placeholder="e-mail">
 										<hr>
 									</div>
 
 									<div class="col-lg-12 col-md-12 col-xs-12">
-										<p hidden id="title-submit" class="title-input">submit</p>
+										<p id="title-submit" class="title-input">submit</p>
 										<input class="optin" type="text" name="submit" placeholder="submit">
 										<hr>
 									</div>
@@ -499,7 +496,8 @@
 										<button id="submit-btn" class="btn btn-default btn-footer" href="" type="button">
 											Submit
 										</button>
-									</div> -->
+									</div>
+									<script type="text/javascript" src="js/footer.js"></script>
 								</div>
 						</div>
 					</div>
@@ -507,13 +505,15 @@
 			</div>
 		</div>
 
-		<div class="footer-bottom">
-
+		<div class="footer-bottom text-center">
+			<p>&copy; 2016 clemo.</p>
+			<p>all rights severved</p>
 		</div>
 	</footer>
 	<!-- end footer -->
 </div>
 <!-- end-wrapper -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

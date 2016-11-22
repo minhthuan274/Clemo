@@ -1,0 +1,55 @@
+.content h2{
+	margin: 60px 0;
+}
+
+.text-content {
+	padding-left: 50px;
+}
+
+.text-content hr{
+	width: 10%;
+	border-top: 2px solid black;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.text-content p{
+	font-family: 'Montserrat Light', sans-serif;
+	margin-top: 0;
+	margin-bottom: 40px;
+	line-height: 2em;
+	opacity: .7;
+}
+
+.my-btn {
+	border-radius: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	border-color: black;
+}
+
+.my-btn:hover {
+	background-color: black;
+	color: white;
+}
+
+#quote {
+	padding-left: 50px;
+	margin-bottom: 50px;
+}
+
+#quote hr{
+	margin: 30px 0;
+	border-top: 2px solid black;
+	width: 10%;
+}
+
+#quote p {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+
