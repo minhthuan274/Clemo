@@ -34,6 +34,10 @@ span.fa-stack:hover, span.fa-stack:focus {
 
 /*submit*/
 
+#submit-box {
+	font-family: 'Montserrat Light', sans-serif;
+}
+
 #submit-row.row {
 	width: 70%;
 }
@@ -47,8 +51,31 @@ span.fa-stack:hover, span.fa-stack:focus {
 	border-color: black;
 	background-color: black;
 	margin-bottom: 5px;
-	padding: 10px 15px;
+	padding: 0px 15px 10px 15px;
 	text-align: left;
 	text-overflow: initial;
 	overflow: hidden;
+}
+
+.title-input {
+	margin: 0;
+	padding-left: 15px;
+	opacity: 0.5;
+	-webkit-transition: all .3;
+	   -moz-transition: all .3;
+	    -ms-transition: all .3;
+	     -o-transition: all .3;
+	        transition: all .3;
+}
+
+#submit-btn {
+	margin-left: 15px;
+	border-radius: 17px;
+	padding: 7px 30px;
+	text-align: center;
+}
+
+#submit-btn:hover, #submit-btn:active, #submit-btn:focus {
+	background-color: #ffcb93;
+	border-color: #ffcb93;
 }
