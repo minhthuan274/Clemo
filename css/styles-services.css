@@ -1,0 +1,37 @@
+#header-hr {
+	margin: 50px 0;
+}
+
+footer hr{
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+#best-price {
+	color: white;
+	background-color: black;
+	padding: 40px 40px;
+}
+
+#event .fa-usd {
+	margin-left: 90px
+}
+
+#event hr{
+	position: absolute;
+	width: 10%;
+}
+
+#event span{
+	font-size: 25px;
+}
+
+#event span {
+	font-family: 'Montserrat Light', sans-serif;
+}
+
+#box-best-price .text-right {
+	font-family: 'Montserrat Light', sans-serif;
+	font-size: 1.3em;
+	margin: 5px 0 0 0;
+}

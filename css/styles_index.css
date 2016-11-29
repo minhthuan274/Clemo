@@ -35,7 +35,7 @@
 	font-size: 15px;
 }
 
-#mySlide > p > button {
+#mySlide > p > a {
 	font-family: 'Montserrat Light', sans-serif;
 	border-radius: 15px;
 	background-color: black;
@@ -45,7 +45,7 @@
 	margin-top: 15px;
 }
 
-#mySlide p button:hover, #mySlide p button:active{
+#mySlide p a:hover, #mySlide p a:active{
 	border-color: rgba(255, 160, 122, 0.68) !important;
 	background-color: rgba(255, 160, 122, 0.68) !important;
 	color: black;
@@ -110,90 +110,6 @@
 	 font-family: 'Montserrat Hairline', arial;
 */
 
-.service .container {
-	padding-left: 0px;
-}
-
-#title-services h2, #title-gallery h2{
-	margin-bottom: 80px;
-	font-size: 55px;
-	font-family: 'Montserrat Hairline', sans-serif;
-}
-
-
-
-.service .container .img-responsive img {
-	max-height: 500px;
-	width: 100%;
-}
-
-.service .container .content-service {
-	padding-left: 60px;
-}
-
-.service .container .content-service > .title {
-	text-decoration: none;
-	color: black;
-}
-
-.service .container .content-service div:hover,
-.service .container .content-service div:active{
-	color: #F39C12;
-	cursor: pointer;
-	border: none;
-}
-
-.service .container .content-service > div > h4 {
-	font-size: 23px;
-	font-family: 'Montserrat Light', sans-serif;
-	font-weight: lighter;
-	margin-bottom: 0;
-	margin-top: 0;
-}
-
-.service .container .content-service > div > h2 {
-	font-size: 50px;
-	font-weight: bold;
-	margin-top: 0;
-}
-
-.service .container .content-service > p {
-	font-family: 'Montserrat Light', sans-serif;
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
-	color: #717D7E;
-}
-
-.service .container .content-service > hr {
-	border-top: 2px solid black;
-	width: 50px;
-	margin-left: 1px;
-}
-
-.service .container .content-service button {
-	font-family: 'Montserrat Light', sans-serif;
-	border-radius: 15px;
-	border-color: #D7DBDD;
-	background-color: white;
-}
-
-.content-service button:hover{
-	border-color: black !important;
-}
-
-/*art installation */
-#content-art {
-	padding-left: 0 !important;
-}
-
-#art-installation .container div img {
-	margin-left: 52px;
-}
-
-.img-responsive {
-	padding: 12px 0px;
-}
 
 /*gallery*/
 
@@ -209,212 +125,6 @@
 	padding: 0px 5px;
 }*/
 
-.content-img{
-	position: relative;
-	cursor: pointer;
-	overflow: hidden;
-	margin-bottom: 30px;
-}
-
-.content-img .caption {
-	background-color: #ffcb93;
-	position: absolute;
-	width: 300px;
-	height: 300px;
-	bottom: -50px;
-	left: 32px;
-	opacity: 0;
-	-webkit-transition: all 0.4s ;
-	   -moz-transition: all 0.4s ;
-	    -ms-transition: all 0.4s ;
-	     -o-transition: all 0.4s ;
-	        transition: all 0.4s ;
-}
-
-.content-img .caption h2 {
-	margin-top: 80px;
-	font-weight: bold;
-}
-
-.content-img .caption hr {
-	text-align: center;
-	width: 50px;
-	background-color: black;
-	border-top: 2px solid black;
-}
-
-.content-img .caption p {
-	font-family: 'Montserrat Light', sans-serif;
-}
-
-.content-img img {
-	opacity: 1;
-}
-
-.content-img:hover img{
-	-webkit-transform: scale(1.1);
-	   -moz-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	     -o-transform: scale(1.1);
-	        transform: scale(1.1);
-	-webkit-transition: all 0.8s;
-	   -moz-transition: all 0.8s;
-	    -ms-transition: all 0.8s;
-	     -o-transition: all 0.8s;
-	        transition: all 0.8s;
-	opacity: .66;     
-}
-
-.content-img:hover .caption {
-	opacity: 1;
-	bottom: 32px;
-}
-
-
-#gallery div div button {
-	margin: 10px;
-	font-family: 'Montserrat Light', sans-serif;
-	border-radius: 15px;
-	border-color: black;
-	color: white;
-	background-color: black;
-	position: absolute;
-	top: 98%;
-	left: 43%;
-	right: 57%;
-}
-
-#gallery div div button:hover, #gallery div div button:active {
-	background-color: white;
-	color: black;
-} 
-
-/*slideshow best team1*/
-
-#best-team {
-  padding: 0;
-  margin: 60px 0px 0px 0;
-  width: 100%;
-}
-
-#best-team .container {
-	padding: 0;
-	width: 100%;
-}
-
-#wrapper-slide-bestTeam {
-	height: 580px;
-	width: 100%;
-	background-color: #ffcb93;
-}
-
-.slide a.carousel-control {
-	background-image: none;
-}
-
-.carousel-control .fa {
-	position: absolute;
-	top: 40%;
-	z-index: 5;
-	display: inline-block;
-}
-
-.carousel-control .fa-angle-left{
-	left: 50%;
-}
-
-.carousel-control .fa-angle-right {
-	right: 50%;
-}
-
-/*.slide a.carousel-control i {
-	color: white;
-}*/
-
-#mySlide2 {
-	background-color: #ffcb93;
-}
-
-#mySlide2 #title-slide h2{
-	font-family: 'Montserrat Hairline', sans-serif;
-	font-size: 55px;
-	padding: 40px 0;
-}
-
-.member {
-	width: 180px;
-	margin: 10px 50px;
-	text-align: center;
-}
-
-.members {
-	width: 1000px;
-	margin-left: 250px;
-}
-
-.information-member hr{
-	width: 40px;
-	border-top: 2px solid black;
-	margin: 12px auto;
-}
-
-
-/*best say*/
-#best-say {
-	padding: 0;
-}
-
-#wrapper-bestSay {
-	height: 600px;
-	background-color: white;
-}
-
-#mySlide3 {
-	background-color: white;
-}
-
-#mySlide3 #title-slide h2{
-	font-family: 'Montserrat Hairline', sans-serif;
-	font-size: 55px;
-	padding: 40px 0;
-}
-
-#review {
-	margin-bottom: 40px;
-}
-
-#review .row #member .information-member h3{
-	margin-top: 0;
-	font-size: 32px;
-}
-
-#review .row #member .information-member hr{
-	text-align: right;
-	margin-right: 0;
-}
-
-#review .row #member .information-member{
-	padding-right: 40px;
-}
-
-#review .row #text-review {
-	padding-right: 200px;
-	padding-top: 5px;
-}
-
-#review .row #text-review p {
-	font-family: 'Montserrat Light', sans-serif;
-	color: #99A3A4;
-	line-height: 25px;
-}
-
-/*footer*/
-
-
-/*i.fa.fa-facebook.fa-twitter.fa-google-plus.fa-pinterest
-.fa-instagram.fa-stack-1x {
-	color: black;
-}*/
 
 
 
@@ -423,6 +133,8 @@
 
 
 
+
+							
 
 
 

@@ -12,6 +12,22 @@
 	src: url('../fonts/Montserrat-Hairline.ttf');
 }
 
+@font-face {
+	font-family: 'Montserrat Bold';
+	scr: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-main: 'Montserrat Light', sans-serif;
+@font-title: 'Montserrat Hairline', sans-serif;
+@font-bold: 'Montserrat Bold', sans-serif;
+
+@color-main: #ffcb93;
+
+/*@font-face {
+	font-family: 'Montserrat Light';
+	scr: url('../fonts/Montserrat-Light.ttf');
+}*/
+
 body{
 	font-family: 'Montserrat', sans-serif;
 }
@@ -53,17 +69,31 @@ navbar css */
 
 /*size img */
 .img-364-590 {
-	max-width: 364px;
-	max-height: 590px;
+	max-height: 100%;
+	max-width: 100%;
 	width: 364px;
 	height: 590px;
 }
 
+.img-756-480 {
+	max-height: 100%;
+	max-width: 100%;
+	width: 756px;
+	height: 480px;
+}
+
 .img-364-364 {
-	max-width: 364px;
-	max-height: 364px;
+	max-height: 100%;
+	max-width: 100%;
 	width: 364px;
 	height: 364px;
+}
+
+.img-952-618 {
+	max-height: 100%;
+	max-width: 100%;
+	width: 952px;
+	height: 618px;
 }
 /*
 slide */
@@ -86,3 +116,18 @@ slide */
 	float: left;
 }
 
+hr{
+	border-top: 1px solid #D7DBDD;
+}
+
+footer hr{
+	margin-bottom: 0;
+}
+
+.margin-top-80 {
+	margin-top: 80px;
+}
+
+.margin-top-120{
+	margin-top: 120px;
+}

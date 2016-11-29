@@ -25,11 +25,19 @@ ul {
 	font-family: 'Montserrat Light', sans-serif;
 }
 
+.fa-ul {
+	padding-top: 20px;
+}
+
 .fa-ul li {
 	margin-bottom: 25px;
 }
 
-span.fa-stack:hover, span.fa-stack:focus {
+a.fa-stack {
+	color: white;
+}
+
+a.fa-stack:hover, a.fa-stack:focus {
 	color: #ffcb93;
 }
 
@@ -110,6 +118,12 @@ span.fa-stack:hover, span.fa-stack:focus {
 .footer-bottom p:last-child {
 	opacity: .7;
 	margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+	.contacts {
+		padding: 50px;
+	}
 }
 
 

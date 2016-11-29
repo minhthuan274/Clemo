@@ -1,0 +1,83 @@
+.service .container {
+	padding-left: 0px;
+}
+
+/*#title-services h2, #title-gallery h2{
+	margin-bottom: 80px;
+	font-size: 45px;
+	font-family: 'Montserrat Hairline', sans-serif;
+}*/
+
+.service .container .img-responsive img {
+	max-height: 500px;
+	width: 100%;
+}
+
+.service .container .content-service {
+}
+
+.service .container .content-service > .title {
+	text-decoration: none;
+	color: black;
+}
+
+.service .container .content-service a:hover,
+.service .container .content-service a:active{
+	color: #F39C12;
+	cursor: pointer;
+}
+
+.service .container .content-service > a > h4 {
+	font-size: 23px;
+	font-family: 'Montserrat Light', sans-serif;
+	font-weight: lighter;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.service .container .content-service > a > h2 {
+	font-family: 'Montserrat Bold', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 0;
+}
+
+.service .container .content-service > p {
+	font-family: 'Montserrat Light', sans-serif;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+	color: #717D7E;
+}
+
+.service .container .content-service > hr {
+	border-top: 2px solid black;
+	width: 50px;
+	margin-left: 1px;
+}
+
+.service .container .content-service #button-learn-more {
+	font-family: 'Montserrat Light', sans-serif;
+	border-radius: 15px;
+	border-color: #D7DBDD;
+	background-color: white;
+	color: black;
+}
+
+.service .container .content-service #button-learn-more:hover {
+	border-color: black;
+	color: black;
+}
+
+/*art installation */
+#content-art {
+	padding-left: 0 !important;
+	padding-right: 100px !important;
+}
+
+#art-installation .container div img {
+}
+
+.img-responsive {
+	padding: 12px 0px;
+}

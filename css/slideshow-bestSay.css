@@ -1,0 +1,76 @@
+/*best say*/
+#best-say {
+	padding: 0;
+}
+
+#wrapper-bestSay {
+	height: 600px;
+	background-color: white;
+}
+
+#mySlide3 {
+	background-color: white;
+}
+
+#mySlide3 #title-slide h2{
+	font-family: 'Montserrat Hairline', sans-serif;
+	font-size: 55px;
+	padding: 40px 0;
+}
+
+#review {
+	margin-bottom: 40px;
+}
+
+#review .row #member .information-member h3{
+	margin-top: 0;
+	font-size: 32px;
+}
+
+#review .row #member .information-member hr{
+	text-align: right;
+	margin-right: 0;
+}
+
+#review .row #member .information-member{
+	padding-right: 40px;
+}
+
+#review .row #text-review {
+	padding-right: 200px;
+	padding-top: 5px;
+}
+
+#review .row #text-review p {
+	font-family: 'Montserrat Light', sans-serif;
+	color: #99A3A4;
+	line-height: 25px;
+}
+
+/*.member {
+	width: 180px;
+	margin: 10px 50px;
+	text-align: center;
+}*/
+
+/*.members {
+	width: 1000px;
+	margin-left: 250px;
+}*/
+
+.information-member hr{
+	width: 40px;
+	border-top: 2px solid black;
+	margin: 12px auto;
+}
+
+@media (max-width: 768px) {
+	#text-review {
+		padding-right: 15px !important;
+	}
+
+	#wrapper-bestSay {
+		height: auto;
+		background-color: white;
+	}
+}

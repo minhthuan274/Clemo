@@ -11,9 +11,16 @@
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="css/styles_index.css" rel="stylesheet">
 	<link href="css/header.css" rel="stylesheet">
+	<link href="css/slideshow-bestSay.css" rel="stylesheet">
+	<link href="css/slideshow-bestteam.css" rel="stylesheet">
+	<link href="css/gallery.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/content-services.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 	<link href="http://allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -26,16 +33,16 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
               </button>
-              <a href="" class="navbar-brand">Clemo.</a>
+              <a href="index.html" class="navbar-brand">Clemo.</a>
           </div>
 
           <div id="menu" class="navbar-collapse collapse pull-right">
               <ul class="nav navbar-nav">
-                  <li><a href="">about us</a></li>
-                  <li><a href="">services</a></li>
-                  <li><a href="">works</a></li>
-                  <li><a href="">blog</a></li>
-                  <li><a href="">contact</a></li>
+                  <li><a href="about-us.html">about us</a></li>
+                  <li><a href="services.html">services</a></li>
+                  <li><a href="works.html">works</a></li>
+                  <li><a href="blog.html">blog</a></li>
+                  <li><a href="contact.html">contact</a></li>
               </ul>
           </div>
       </nav>
@@ -59,7 +66,7 @@
  					<hr>
             		<p class="text-center">professionals</p>
             		<p class="text-center">in the creative industries<p>
-            		<button id="button_get_touch" type="button" class="btn btn-primary" href=".footer-top">Get in touch</button>
+            		<a id="button_get_touch" type="button" class="btn btn-primary" href="#get-in-touch">get in touch</a>
 				</div>
 
 				<div id="mySlide" class="item">
@@ -77,24 +84,22 @@
 		</div> <!-- end slider first -->
 		</div>
 
-		<div class="big-space"></div>
-
 		<div id="services">
 			<div id="title-services">
-				<h2 class="text-center">What we do?</h2>
+				<h2 class="text-center title margin-top-80">What we do?</h2>
 			</div> <!-- end title services -->
 
-			<div id="creative-kitchen" class="service">
+			<div id="creative-kitchen" class="service margin-top-80">
 				<div class="container">
-					<div class="col-lg-6 col-md-6 col-xs-12 img-responsive">
+					<div class="col-sm-6">
 						<img src="http://thekitchenworks.com/wp-content/uploads/2015/06/20081015_KitchenWorks_E-560x560.jpg" alt="560x560">
 					</div>
 
-					<div id="content-kitchen" class="col-lg-6 col-md-6 col-xs-12 content-service">
-						<div class="title btn-link" href="" type="button">
+					<div id="content-kitchen" class="col-sm-5 col-sm-push-1 content-service">
+						<a class="title btn-link" type="button" href="service.html">
 							<h4 class="text-left">creative</h4>
-							<h2 class="text-left">kitchen<h2>
-						</div>
+							<h2 class="text-left">kitchen</h2>
+						</a>
 						<hr>
 						<p>
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
@@ -103,7 +108,7 @@
 							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 						</p>
 
-						<button id="button_get_touch" type="button" class="btn text-center" href="">Learn more</button>
+						<a id="button-learn-more" type="button" class="btn text-center" href="service.html">Learn more</a>
 					</div> <!-- end content kitchen -->
 				</div>
 			</div> <!-- end creative kitchen -->
@@ -112,11 +117,16 @@
 
 			<div id="art-installation" class="service">
 				<div class="container">
-					<div id="content-art" class="col-lg-6 col-md-6 col-xs-12 content-service">
-						<div class="title btn-link" href="" type="button">
+					
+					<div class="col-sm-6 col-sm-push-6">
+						<img src="http://media.tumblr.com/tumblr_m6zlymuzhR1qj5yp1.jpg" alt="560x560" width="560px" height="560px">
+					</div>
+
+					<div id="content-art" class="col-sm-5 col-sm-pull-6 content-service">
+						<a class="title btn-link" href="service.html" type="button">
 							<h4 class="text-left">art</h4>
-							<h2 class="text-left">installation<h2>
-						</div>
+							<h2 class="text-left">installation</h2>
+						</a>
 						<hr>
 						<p>
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
@@ -124,12 +134,9 @@
 						<p>
 							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 						</p>
-						<button id="button_get_touch" type="button" class="btn text-center" href="">Learn more</button>
+						<a id="button-learn-more" type="button" class="btn text-center" href="service.html">Learn more</a>
 					</div> <!-- end content art -->
 
-					<div class="col-lg-6 col-md-6 col-xs-12 img-responsive">
-						<img src="http://media.tumblr.com/tumblr_m6zlymuzhR1qj5yp1.jpg" alt="560x560" width="auto" height="560px">
-					</div>
 				</div>
 			</div> <!-- end art installation -->
 
@@ -137,15 +144,15 @@
 
 			<div id="print design" class="service">
 				<div class="container">
-					<div class="col-lg-6 col-md-6 col-xs-12 img-responsive">
+					<div class="col-sm-6">
 						<img src="https://s-media-cache-ak0.pinimg.com/originals/dd/b5/6f/ddb56f7772b895034e55f9f1e8af8d17.jpg" alt="560x560" width="560" height="560">
 					</div>
 
-					<div id="content-print" class="col-lg-6 col-md-6 col-xs-12 content-service">
-						<div class="title btn-link" href="" type="button">
+					<div id="content-print" class="col-sm-5 col-sm-push-1 content-service">
+						<a class="title btn-link" href="" type="button">
 							<h4 class="text-left">print</h4>
-							<h2 class="text-left">design<h2>
-						</div>
+							<h2 class="text-left">design</h2>
+						</a>
 						<hr>
 						<p>
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
@@ -154,7 +161,7 @@
 							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 						</p>
 
-						<button id="button_get_touch" type="button" class="btn text-center" href="">Learn more</button>
+						<a id="button-learn-more" type="button" class="btn text-center" href="service.html">Learn more</a>
 					</div> <!-- end content design -->
 				</div>
 			</div> <!-- end print design -->
@@ -169,84 +176,30 @@
 			</div>
 			<!--title gallery-->
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-xs-12">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="content-img">
-									<img src="images/364-364.jpg" alt="" class="img-364-364">
-									<div class="caption">
-										<h2 class="text-center">Golfino<br>awards </h2>
-										<hr>
-										<p class="text-center">print design</p>
-									</div>
-								</div>
-							</div>
 
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="content-img">
-									<img src="images/364-590.jpg" alt="" class="img-364-590">
-									<div class="caption">
-										<h2 class="text-center">Golfino<br>awards </h2>
-										<hr>
-										<p class="text-center">print design</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-xs-12">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="content-img">
-									<img src="images/364-590.jpg" alt="" class="img-364-590">
-									<div class="caption">
-										<h2 class="text-center">Golfino<br>awards </h2>
-										<hr>
-										<p class="text-center">print design</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="content-img">
-									<img src="images/364-364.jpg" alt="" class="img-364-364">
-									<div class="caption">
-										<h2 class="text-center">Golfino<br>awards </h2>
-										<hr>
-										<p class="text-center">print design</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-xs-12">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="content-img">
-									<img src="images/364-364.jpg" alt="" class="img-364-364">
-									<div class="caption">
-										<h2 class="text-center">Golfino<br>awards </h2>
-										<hr>
-										<p class="text-center">print design</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="content-img">
-									<img src="images/364-590.jpg" alt="" class="img-364-590">
-									<div class="caption">
-										<h2 class="text-center">Golfino<br>awards </h2>
-										<hr>
-										<p class="text-center">print design</p>
-									</div>
-								</div>
+					<div class="col-sm-12 col-xs-12 work-image">
+						<div class="content-img">
+							<img src="images/364-364.jpg" alt="" class="img-364-364">
+							<div class="caption">
+								<h2 class="text-center">Golfino<br>awards </h2>
+								<hr>
+								<p class="text-center">print design</p>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-12 col-md-12 col-xs-12">
+					<div class="col-sm-12 col-xs-12 work-image">
+						<div class="content-img">
+							<img src="images/364-590.jpg" alt="" class="img-364-590">
+							<div class="caption">
+								<h2 class="text-center">Golfino<br>awards </h2>
+								<hr>
+								<p class="text-center">print design</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-12 col-md-12 col-xs-12 work-image" >
 						<button id="Gallery-button" type="button" class="btn text-center" href="">Learn more</button>
 					</div>
 				</div>
@@ -266,12 +219,12 @@
 
 					<!-- Wrapper for slides -->
 					<div id="wrapper-slide-bestTeam" class="carousel-inner" role="listbox">
-						<div id="mySlide2" class="item active">
+						<div id="mySlide2" class="item active container-fluid">
 							<div id="title-slide">
 								<h2 class="text-center">Best team</h2>
 							</div>
-							<div class="members row">
-								<div id="member1" class="member col-lg-4">
+							<div class="members row col-lg-offset-2 col-md-offset-2 col-xs-offset-2">
+								<div id="member1" class="member col-lg-4 col-md-4 col-sm-12">
 									<div class="avatar">
 										<img src="images/168-168.jpg" class="img-circle">
 									</div>
@@ -287,7 +240,7 @@
 									</div>
 								</div>
 
-                        <div id="member2" class="member col-lg-4 ">
+                        <div id="member2" class="member col-lg-4 col-md-4 col-sm-12">
                            <div class="avatar">
                               <img src="images/168-168.jpg" class="img-circle">
                            </div>
@@ -303,7 +256,7 @@
                            </div>
                         </div>
 
-                        <div id="member3" class="member col-lg-4">
+                        <div id="member3" class="member col-lg-4 col-md-4 col-sm-12">
                            <div class="avatar">
                               <img src="images/168-168.jpg" class="img-circle">
                            </div>
@@ -321,13 +274,115 @@
 							</div>
 						</div> <!-- end slide 1 -->
 
-						<div id="mySlide2" class="item">
+						<div id="mySlide2" class="item container-fluid">
+							<div id="title-slide">
+								<h2 class="text-center">Best team</h2>
+							</div>
+							<div class="members row col-lg-offset-2 col-md-offset-2 col-xs-offset-2">
+								<div id="member1" class="member col-lg-4 col-md-4 col-sm-12">
+									<div class="avatar">
+										<img src="images/168-168.jpg" class="img-circle">
+									</div>
 
-						</div>
+									<div class="information-member">
+										<div class="name">
+											<h3>Paul Hall</h3>
+										</div>
+										<hr>
+										<div class="job">
+											<p>art director</p>
+										</div>
+									</div>
+								</div>
 
-						<div id="mySlide2" class="item">
+                        <div id="member2" class="member col-lg-4 col-md-4 col-sm-12">
+                           <div class="avatar">
+                              <img src="images/168-168.jpg" class="img-circle">
+                           </div>
 
-						</div>
+                           <div class="information-member">
+                              <div class="name">
+                                 <h3>Joshua spencer</h3>
+                              </div>
+                              <hr>
+                              <div class="job">
+                                 <p>founder</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div id="member3" class="member col-lg-4 col-md-4 col-sm-12">
+                           <div class="avatar">
+                              <img src="images/168-168.jpg" class="img-circle">
+                           </div>
+
+                           <div class="information-member">
+                              <div class="name">
+                                 <h3>Diane Lewis</h3>
+                              </div>
+                              <hr>
+                              <div class="job">
+                                 <p>artist designer</p>
+                              </div>
+                           </div>
+                        </div>
+							</div>
+						</div> <!-- end slide 2 -->
+
+						<div id="mySlide2" class="item container-fluid">
+							<div id="title-slide">
+								<h2 class="text-center">Best team</h2>
+							</div>
+							<div class="members row col-lg-offset-2 col-md-offset-2 col-xs-offset-2">
+								<div id="member1" class="member col-lg-4 col-md-4 col-sm-12">
+									<div class="avatar">
+										<img src="images/168-168.jpg" class="img-circle">
+									</div>
+
+									<div class="information-member">
+										<div class="name">
+											<h3>Paul Hall</h3>
+										</div>
+										<hr>
+										<div class="job">
+											<p>art director</p>
+										</div>
+									</div>
+								</div>
+
+                        <div id="member2" class="member col-lg-4 col-md-4 col-sm-12">
+                           <div class="avatar">
+                              <img src="images/168-168.jpg" class="img-circle">
+                           </div>
+
+                           <div class="information-member">
+                              <div class="name">
+                                 <h3>Joshua spencer</h3>
+                              </div>
+                              <hr>
+                              <div class="job">
+                                 <p>founder</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div id="member3" class="member col-lg-4 col-md-4 col-sm-12">
+                           <div class="avatar">
+                              <img src="images/168-168.jpg" class="img-circle">
+                           </div>
+
+                           <div class="information-member">
+                              <div class="name">
+                                 <h3>Diane Lewis</h3>
+                              </div>
+                              <hr>
+                              <div class="job">
+                                 <p>artist designer</p>
+                              </div>
+                           </div>
+                        </div>
+							</div>
+						</div> <!-- end slide 1 -->
 					</div>
                <!-- Left and right controls -->
     				<a class="left carousel-control" href="#slideshow-bestTeam" role="button" data-slide="prev">
@@ -338,6 +393,8 @@
       				<i class="glyphicon fa fa-angle-right fa-5x" aria-hidden="true"></i>
       				<span class="sr-only">Next</span>
     				</a>
+
+    				
 				</div> <!-- end slideshow best team -->
 			</div>
 		</div> <!--end slider best team -->
@@ -354,7 +411,7 @@
 				<!-- wrappers -->
 				<div id="wrapper-bestSay" class="carousel-inner" role="listbox">
 
-					<div id="mySlide3" class="item active">
+					<div id="mySlide3" class="item active container-fluid">
 						<div id="title-slide">
 							<h2 class="text-center">Client say's</h2>
 						</div>
@@ -377,7 +434,7 @@
 							</div>
 						</div>
 
-						<div class="logos">
+						<div class="logos visible-lg visible-md">
 							<div class="row">
 								<div class="col-lg-3 col-md-3 col-xs-12">
 									<img src="images/266-140.jpg" alt="" >
@@ -398,12 +455,92 @@
 						</div>
 					</div>
 
-					<div id="mySlide3" class="item">
-						Slide 2
+					<div id="mySlide3" class="item container-fluid">
+						<div id="title-slide">
+							<h2 class="text-center">Client say's</h2>
+						</div>
+
+						<div id="review">
+							<div class="row">
+								<div id="member" class="col-lg-6 col-md-6 col-xs-6">
+									<div class="information-member">
+										<h3 class="text-right">frank sims</h3>
+										<hr>
+										<p class="text-right">photographer</p>
+									</div>
+								</div>
+
+								<div id="text-review" class="col-lg-6 col-md-6 col-xs-6">
+									<p class="text-left">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="logos visible-lg visible-md">
+							<div class="row">
+								<div class="col-lg-3 col-md-3 col-xs-12">
+									<img src="images/266-140.jpg" alt="" >
+								</div>
+
+								<div class="col-lg-3 col-md-3 col-xs-12">
+									<img src="images/266-140.jpg" alt="" >
+								</div>
+
+								<div class="col-lg-3 col-md-3 col-xs-12">
+									<img src="images/266-140.jpg" alt="" >
+								</div>
+
+								<div class="col-lg-3 col-md-3 col-xs-12">
+									<img src="images/266-140.jpg" alt="" >
+								</div>
+							</div>
+						</div>
 					</div>
 
-					<div id="mySlide3" class="item">
-						Slide 3
+					<div id="mySlide3" class="item container-fluid">
+						<div id="title-slide">
+							<h2 class="text-center">Client say's</h2>
+						</div>
+
+						<div id="review">
+							<div class="row">
+								<div id="member" class="col-lg-6 col-md-6 col-xs-6">
+									<div class="information-member">
+										<h3 class="text-right">frank sims</h3>
+										<hr>
+										<p class="text-right">photographer</p>
+									</div>
+								</div>
+
+								<div id="text-review" class="col-lg-6 col-md-6 col-xs-6">
+									<p class="text-left">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="logos visible-lg visible-md">
+							<div class="row">
+								<div class="col-lg-3 col-md-3 col-xs-12">
+									<img src="images/266-140.jpg" alt="" >
+								</div>
+
+								<div class="col-lg-3 col-md-3 col-xs-12">
+									<img src="images/266-140.jpg" alt="" >
+								</div>
+
+								<div class="col-lg-3 col-md-3 col-xs-12">
+									<img src="images/266-140.jpg" alt="" >
+								</div>
+
+								<div class="col-lg-3 col-md-3 col-xs-12">
+									<img src="images/266-140.jpg" alt="" >
+								</div>
+							</div>
+						</div>
 					</div>
 
 				</div>
@@ -414,7 +551,7 @@
 	<!-- end content -->
 
 	<footer class="content-info">
-		<div class="footer-top">
+		<div id="get-in-touch" class="footer-top">
 			<div class="container">
 				<div id="title-footer">
 					<h2 class="text-center">get in touch</h2>
@@ -439,30 +576,30 @@
 							</li>
 						</ul>
 						<p>
-							<span class="fa-stack fa-lg" role="button" href="" target="_blank">
+							<a class="fa-stack fa-lg" role="button" href="" target="_blank">
         						<i class="fa fa-circle fa-stack-2x"></i>
         					  <i class="fa fa-facebook fa-stack-1x"></i>
-    						</span>
+    						</a>
 
-    						<span class="fa-stack fa-lg" role="button" href="" target="_blank">
+    						<a class="fa-stack fa-lg" role="button" href="" target="_blank">
         						<i class="fa fa-circle fa-stack-2x"></i>
         					  <i class="fa fa-twitter fa-stack-1x"></i>
-    						</span>
+    						</a>
 
-    						<span class="fa-stack fa-lg" role="button" href="" target="_blank">
+    						<a class="fa-stack fa-lg" role="button" href="" target="_blank">
         						<i class="fa fa-circle fa-stack-2x"></i>
         					  <i class="fa fa-google-plus fa-stack-1x"></i>
-    						</span>
+    						</a>
 
-    						<span class="fa-stack fa-lg" role="button" href="" target="_blank">
+    						<a class="fa-stack fa-lg" role="button" href="" target="_blank">
         						<i class="fa fa-circle fa-stack-2x"></i>
         					  <i class="fa fa-pinterest fa-stack-1x"></i>
-    						</span>
+    						</a>
 
-    						<span class="fa-stack fa-lg" role="button" href="" target="_blank">
+    						<a class="fa-stack fa-lg" role="button" href="" target="_blank">
         						<i class="fa fa-circle fa-stack-2x"></i>
         					  <i class="fa fa-instagram fa-stack-1x"></i>
-    						</span>
+    						</a>
 
 						</p>
 					</div>
@@ -513,7 +650,5 @@
 	<!-- end footer -->
 </div>
 <!-- end-wrapper -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

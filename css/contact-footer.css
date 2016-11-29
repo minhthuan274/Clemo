@@ -1,0 +1,15 @@
+.footer-top {
+	background-color: white;
+	color: black;
+}
+
+.optin {
+	border-color: white;
+	background-color: white;
+	outline: none;
+	border-style: none;
+}
+
+iframe {
+	width: 100%;
+}

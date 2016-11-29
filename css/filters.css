@@ -1,0 +1,36 @@
+
+
+.filter {
+	color: black;
+	opacity: .6;
+
+}
+
+.filter:hover, .filter:focus {
+	opacity: 1;
+	text-decoration: none;
+	color: black;
+	outline: none;
+}
+
+.filter:active:focus{
+	outline: none;
+}
+
+.filter:active {
+	opacity: 1;
+	outline: none;
+}
+
+#btn-show-more {
+	margin-left: 46%;
+	margin-right: 54%;
+	color: white;
+	background-color: black;
+	border-radius: 15px;
+}
+
+#btn-show-more:hover {
+	background-color: #ffcb93;
+	color: black;
+}
