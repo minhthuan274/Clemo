@@ -89,6 +89,12 @@ a.fa-stack:hover, a.fa-stack:focus {
 	border-color: #ffcb93;
 }
 
+.btn-footer:active:focus {
+	background-color: #ffcb93;
+	border-color: #ffcb93;
+	outline: none;
+}
+
 .fa-check.fa-4x {
 	margin-left: 10px;
 }

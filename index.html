@@ -14,6 +14,7 @@
 	<link href="css/slideshow-bestSay.css" rel="stylesheet">
 	<link href="css/slideshow-bestteam.css" rel="stylesheet">
 	<link href="css/gallery.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/content-services.css">
 
@@ -24,8 +25,8 @@
 </head>
 <body>
 <div id="wrapper">
-	<div id="header">
-     <nav class="navbar">
+	<header>
+		<nav class="navbar">
          <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
                   <span class="sr-only">Toggle navigation</span>
@@ -46,7 +47,7 @@
               </ul>
           </div>
       </nav>
-	</div>
+	</header>
 	<!-- end-header -->
 
 	<div id="content">
@@ -86,10 +87,10 @@
 
 		<div id="services">
 			<div id="title-services">
-				<h2 class="text-center title margin-top-80">What we do?</h2>
+				<h2 class="text-center title margin-top-80 animated bounceInUp">What we do?</h2>
 			</div> <!-- end title services -->
 
-			<div id="creative-kitchen" class="service margin-top-80">
+			<div id="creative-kitchen" class="service margin-top-80 animated bounceInLeft">
 				<div class="container">
 					<div class="col-sm-6">
 						<img src="http://thekitchenworks.com/wp-content/uploads/2015/06/20081015_KitchenWorks_E-560x560.jpg" alt="560x560">
@@ -115,7 +116,7 @@
 
 			<div class="big-space"></div>
 
-			<div id="art-installation" class="service">
+			<div id="art-installation" class="service animated bounceInRight">
 				<div class="container">
 					
 					<div class="col-sm-6 col-sm-push-6">
@@ -142,7 +143,7 @@
 
 			<div class="big-space"></div>
 
-			<div id="print design" class="service">
+			<div id="print design" class="service animated bounceInLeft">
 				<div class="container">
 					<div class="col-sm-6">
 						<img src="https://s-media-cache-ak0.pinimg.com/originals/dd/b5/6f/ddb56f7772b895034e55f9f1e8af8d17.jpg" alt="560x560" width="560" height="560">
@@ -172,12 +173,12 @@
 		</div>
 		<div id="gallery">
 			<div id="title-gallery">
-				<h2 class="text-center">Our best works</h2>
+				<h2 class="text-center title">Our best works</h2>
 			</div>
 			<!--title gallery-->
-			<div class="container">
-
-					<div class="col-sm-12 col-xs-12 work-image">
+			<div class="container margin-top-80 grid">
+					<div class="grid-size"></div>
+					<a class="col-sm-4 col-xs-12 work-image creative-kitchen" href="work.html">
 						<div class="content-img">
 							<img src="images/364-364.jpg" alt="" class="img-364-364">
 							<div class="caption">
@@ -186,9 +187,9 @@
 								<p class="text-center">print design</p>
 							</div>
 						</div>
-					</div>
+					</a>
 
-					<div class="col-sm-12 col-xs-12 work-image">
+					<a class="col-sm-4 col-xs-12 work-image art-installation" href="work.html">
 						<div class="content-img">
 							<img src="images/364-590.jpg" alt="" class="img-364-590">
 							<div class="caption">
@@ -197,13 +198,54 @@
 								<p class="text-center">print design</p>
 							</div>
 						</div>
-					</div>
+					</a>
 
-					<div class="col-lg-12 col-md-12 col-xs-12 work-image" >
-						<button id="Gallery-button" type="button" class="btn text-center" href="">Learn more</button>
-					</div>
-				</div>
-				
+					<a class="col-sm-4 col-xs-12 work-image print-design" href="work.html">
+						<div class="content-img">
+							<img src="images/364-364.jpg" alt="" class="img-364-364">
+							<div class="caption">
+								<h2 class="text-center">Golfino<br>awards </h2>
+								<hr>
+								<p class="text-center">print design</p>
+							</div>
+						</div>
+					</a>
+
+					<a class="col-sm-4 col-xs-12 work-image art-installation" href="work.html">
+						<div class="content-img">
+							<img src="images/364-590.jpg" alt="" class="img-364-590">
+							<div class="caption">
+								<h2 class="text-center">Golfino<br>awards </h2>
+								<hr>
+								<p class="text-center">print design</p>
+							</div>
+						</div>
+					</a>	
+					
+
+					<a class="col-sm-4 col-xs-12 work-image art-installation" href="work.html">
+						<div class="content-img">
+							<img src="images/364-590.jpg" alt="" class="img-364-590">
+							<div class="caption">
+								<h2 class="text-center">Golfino<br>awards </h2>
+								<hr>
+								<p class="text-center">print design</p>
+							</div>
+						</div>
+					</a>	
+
+					<a class="col-sm-4 col-xs-12 work-image creative-kitchen" href="work.html">
+						<div class="content-img">
+							<img src="images/364-364.jpg" alt="" class="img-364-364">
+							<div class="caption">
+								<h2 class="text-center">Golfino<br>awards </h2>
+								<hr>
+								<p class="text-center">print design</p>
+							</div>
+						</div>
+					</a>	
+
+					<a id="btn-work-learn-more" href="work.html" class="btn btn-default">Learn more</a>			
 			</div>
 		</div> <!-- end gallery -->
 
@@ -650,5 +692,17 @@
 	<!-- end footer -->
 </div>
 <!-- end-wrapper -->
+<script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
+<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
+<script type="text/javascript">
+	var $grid = $('.grid').imagesLoaded(
+	function(){
+		$grid.masonry({
+			itemSelector: '.work-image',
+			percentPosition: true,
+			columnWidth: '.work-image'
+		});
+	});
+</script>
 </body>
 </html>

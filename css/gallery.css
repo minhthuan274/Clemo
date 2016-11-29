@@ -29,7 +29,7 @@
 	text-align: center;
 	width: 50px;
 	background-color: black;
-	border-top: 2px solid black;
+	border-top: 2px solid #23527c;;
 }
 
 .content-img .caption p {
@@ -60,7 +60,7 @@
 }
 
 
-#gallery div div button {
+#btn-work-learn-more {
 	margin: 10px;
 	font-family: 'Montserrat Light', sans-serif;
 	border-radius: 15px;
@@ -69,20 +69,16 @@
 	background-color: black;
 	position: absolute;
 	top: 98%;
-	left: 43%;
-	right: 57%;
+	left: 45%;
+	right: auto;
 }
 
-#gallery div div button:hover, #gallery div div button:active {
-	background-color: white;
+#btn-work-learn-more:hover, #btn-work-learn-more:active {
+	background-color: #ffcb93;
+	border-color: #ffcb93;
 	color: black;
 } 
 
 .container {
 	position: relative;
-}
-
-.work-image {
-	position: absolute;
-	float: left;
 }

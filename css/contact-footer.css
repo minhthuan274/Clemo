@@ -1,15 +1,22 @@
 .footer-top {
-	background-color: white;
+	background-color: #F2F7FA;
 	color: black;
 }
 
 .optin {
-	border-color: white;
-	background-color: white;
+	border-color: #F2F7FA;
+	background-color: #F2F7FA;
 	outline: none;
 	border-style: none;
 }
 
 iframe {
 	width: 100%;
+}
+
+.fa-stack .fa-stack-1x {
+	color: white;
+}
+a.fa-stack {
+	color: black;
 }
