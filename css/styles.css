@@ -17,6 +17,15 @@
 	scr: url('../fonts/Montserrat-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Light'), local('Montserrat-Light'),
+        url('../fonts/Montserrat-Light.woff') format('woff'),
+        url('../fonts/Montserrat-Light.otf') format('truetype');
+}
+
 @font-main: 'Montserrat Light', sans-serif;
 @font-title: 'Montserrat Hairline', sans-serif;
 @font-bold: 'Montserrat Bold', sans-serif;
