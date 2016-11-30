@@ -55,22 +55,6 @@ body{
 /*
 navbar css */
 
-.navbar-header > .navbar-brand {
-	font-size: 20px;
-	font-weight: bold;
-	padding-left: 0;
-	color: black;
-}
-
-.navbar-nav > li > a {
-	color: #D7DBDD;
-	font-size: 14px;
-}
-
-.nav>li>a:focus, .nav>li>a:hover{
-	background-color: white;
-	color: #2E4053;
-}
 
 .big-space {
 	padding: 45px;
@@ -139,6 +123,27 @@ footer hr{
 
 .margin-top-120{
 	margin-top: 120px;
+}
+
+.margin-120 {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+.padding-top-60 {
+	padding-top: 60px;
+}
+
+.padding-60 {
+	padding: 60px;
+}
+
+.padding-30 {
+	padding: 30px;
+}
+
+.padding-top-30 {
+	padding-top: 30px;
 }
 
 body {

@@ -1,3 +1,50 @@
 header {
-	margin: 20px 50px 20px 90px;
+	margin-left: 14vh;
+	margin-right: 14vh;
+	margin-top: 20px;
+}
+
+nav {
+	background-color: #F2F7FA !important;
+	border-color: #F2F7FA !important;
+}
+
+#menu {
+	float: right;
+}
+
+.navbar-header > .navbar-brand {
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 0;
+	color: black;
+}
+
+
+
+.navbar-nav > li > a{
+	color: black !important;
+	opacity: .4;
+	font-size: 14px;
+}
+
+.active-nav{
+	opacity: 1 !important ;
+	text-decoration: underline !important;
+}
+
+/*.nav>li>a:focus, .nav>li>a:hover{
+	opacity: 1;
+	color: black;
+}
+*/
+
+@media (max-width: 768px) {
+	header {
+		margin: 1vh;
+	}
+
+	#menu {
+		float: none;
+	}
 }

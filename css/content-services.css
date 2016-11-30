@@ -69,15 +69,31 @@
 	color: black;
 }
 
-/*art installation */
-#content-art {
-	padding-left: 0 !important;
-	padding-right: 100px !important;
-}
+
 
 #art-installation .container div img {
 }
 
 .img-responsive {
 	padding: 12px 0px;
+}
+
+@media (max-width: 768px) {
+
+	.content-service  {
+		padding-top: 40px;
+	}
+	.content-service a h2, .content-service a h4 {
+		text-align: center ;
+	}
+
+	.content-service hr {
+		margin-left: 45% !important;
+		margin-right: auto;
+	}
+
+	#button-learn-more {
+		margin-left: 37% !important;
+		margin-right: auto;
+	}
 }
